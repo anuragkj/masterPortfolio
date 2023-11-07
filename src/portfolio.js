@@ -496,44 +496,52 @@ const publicationsHeader = {
 const publications = {
   data: [
     {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      id: "1",
+      name: "Deep Learning Based Text Translation and Summarization Tool for Hearing Impaired Using Indian Sign Language",
+      createdAt: "Published in March 2023",
+      description: "There have been multiple text conversions emerging with time but there has hardly been any work in the field of sign language. Even in the field of sign language multiple methods have been proposed to convert it into text via image detection, but due to the rarity of sign language corpus not much work has been put into text or speech to sign language. The proposed project intends to create a translation model to convert text or audio into sign language with its designated grammar. The process includes translation of any language to English followed by summarization of a big article or text, removal of stopwords, reordering the grammar form and stemming words into their root form. The translation is performed by mBART model, summarization is performed using BART model, conversion into animation is done via mapping words into a dictionary and replacing words by letters for unknown words. The paper uses HamNoSys (Regina et al., 1989), SiGML, BART, mBART and NLP to form the translation system. The paper aims to establish better means of communication with the deaf, dumb and people with hearing issues.",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://www.scitepress.org/Papers/2023/117282/117282.pdf",
     },
     {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      id: "2",
+      name: "AIOT based precision agriculture for Indian farms",
+      createdAt: "Paper accpepted under IEEE Explore",
+      description: "The project is based on creating a webapp for monitoring different agricultural requirements leveraging the power of IoT. On top of thismachine learning models are used for predicting different aspects of the farming.",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://github.com/anuragkj/Crop_Yield_Prediction",
     },
     {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      id: "3",
+      name: "Crop Disease Detection and Classification using SqueezeNet",
+      createdAt: "Paper accpepted under IEEE Explore",
+      description: "The project involves using transfer learning for different deep learning models to find a precise and simple(lowhardware requirement) solution for detection and identification of plant diseases using a smart phone. SqueezeNet has been chosen over other models after analysing the accuracy achieved and its simple hardware requirements.",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://github.com/anuragkj/PlantHealth",
     },
     {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      id: "4",
+      name: "Facial anti spoofing using frame level analysis",
+      createdAt: "Under Work",
+      description: "The aim of the project is to develop a model to different kind of spoofing attacks for facial biometrics. For providing a hardware efficient solution the analysis and model formation is done for frame level. The final model is an ensemble of patch analysis, depth analysis and binary pixel wise supervision.",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://github.com/anuragkj/Face-Anti-Spoofing_using_CNN",
     },
     {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      id: "5",
+      name: "Key Blinding for Digital SIgnature Alogrithms",
+      createdAt: "Under Work",
+      description: "The research project does a through survey of existing digital signature algorithms and the issues facedby them. Key blinding is proposed as a solution to improve on the existing systems and benchmark tests are done to validate this claim.",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://github.com/anuragkj/Digital_Signatures_with_Key_Blinding",
+    },
+    {
+      id: "6",
+      name: "Skin lesion classification using multi model ensemble",
+      createdAt: "Under Work",
+      description: "A deep learning project based on creating a model for skin cancer classification. The project is based off transfer learning approach. The models used are fine tuned and an ensemble of these used. The project is able to reach promising results and a front end has been developed for the same.",
+      url:
+        "https://github.com/anuragkj/Skin-Cancer-Detection",
     },
   ],
 };
@@ -542,7 +550,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "anurag.jpeg",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
@@ -556,18 +564,18 @@ const contactPageData = {
   addressSection: {
     title: "Address",
     subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
-    locality: "Kanodar",
-    country: "IN",
-    region: "Gujarat",
-    postalCode: "385520",
-    streetAddress: "Ambavadi vas",
+      "Flat 301, Azizi Iris",
+    locality: "Al Furjan",
+    country: "AE",
+    region: "Dubai",
+    postalCode: "17000",
+    streetAddress: "Near Discovery Garden Metro Station",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "https://maps.app.goo.gl/9zwLUZmiCCjfJ4dJA",
   },
   phoneSection: {
-    title: "",
-    subtitle: "",
+    title: "Phone Number",
+    subtitle: "+971553566198",
   },
 };
 

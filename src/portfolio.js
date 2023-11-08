@@ -564,7 +564,7 @@ const contactPageData = {
   addressSection: {
     title: "Address",
     subtitle:
-      "Flat 301, Azizi Iris",
+      "Flat 301, Azizi Iris, Al Furjan, Dubai, UAE",
     locality: "Al Furjan",
     country: "AE",
     region: "Dubai",

@@ -33,9 +33,15 @@
 }
 
 .contact-heading-img-div {
+  padding-top: 50px;
+  padding-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.contact-heading-img-div>img {
+  border-radius: 50%;
 }
 
 .blog-heading-img-div {
